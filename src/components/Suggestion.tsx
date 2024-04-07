@@ -1,6 +1,6 @@
-import { Button, Flex, Heading, Text } from "@chakra-ui/react"
-import LoadingSpinner from "./LoadingSpinner"
+import { Button, Flex, Heading } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import LoadingSpinner from "./LoadingSpinner";
 
 interface Props {
     hobby:string,

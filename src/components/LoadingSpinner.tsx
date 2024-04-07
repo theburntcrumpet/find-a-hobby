@@ -1,5 +1,5 @@
 import { Heading } from '@chakra-ui/react';
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function LoadingSpinner() {
   const emojis = ["🎸","⚽️","🧑‍🍳","🐣","🔨","🤖","🧑‍🌾","🐱","🚶"];
