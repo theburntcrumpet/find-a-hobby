@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Center h="100vh" id="landing">
+      <Center h="100svh" id="landing">
         <Box justifyContent={"center"}>
           <Heading textAlign={"center"} size="2xl">Find a Hobby</Heading>
           {suggestion ? <Suggestion hobby={suggestion} spinTime={5000} key={suggestion}/> : <br/>}
